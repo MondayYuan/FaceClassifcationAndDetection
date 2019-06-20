@@ -59,11 +59,16 @@ conda install pytorch
 
 + Crop the face within the bounding box as a positive sample
 
+![image](https://github.com/MondayYuan/FaceClassifcationAndDetection/blob/master/fig/pos.png)
+
 ### generate negative samples
 
 `python generate_positve.py`
 
 generate eight negative images based on each face by sliding the bounding box by 1/3
+
+![image](https://github.com/MondayYuan/FaceClassifcationAndDetection/blob/master/fig/neg.png)
+
 
 ### generate HOG features
 
